@@ -1,0 +1,74 @@
+/* ====================================================================================
+                                       fonts 
+ ====================================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+/* ======================================================================================
+                                 common styles or utilities 
+  ========================================================================================= */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  width: 1200px;
+}
+
+/* ========================================
+           website name and menubar styles
+======================================== */
+header {
+  display: flex;
+  justify-content: center;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 px;
+}
+.website-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.fa-shopping-cart {
+  font-size: 20px;
+  color: #000;
+}
+
+/* ================================
+          header banner styles 
+================================ */
+.header-banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 0px;
+}
+.banner-info {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.hit-button {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #e02c6d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.fa-arrow-right {
+  padding-left: 7px;
+}
+
+.banner-right {
+  padding-left: 125px;
+}
