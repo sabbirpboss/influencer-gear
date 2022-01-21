@@ -76,14 +76,15 @@ header {
 /* =======================================
             Popular Collection styles 
 ========================================== */
-.collections{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    grid-column-gap: 44px;
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-column-gap: 44px;
+  justify-items: center;
 }
-.collection{
-    width: 330px;
+.collection {
+  width: 330px;
 }
 .section-title {
   font-size: 28px;
@@ -110,10 +111,10 @@ header {
   font-weight: 400;
   margin-bottom: 5px;
 }
-.collection-info span{
-    font-size: 14px;
-    font-weight: 700;
-    color: #5E6366;
+.collection-info span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5e6366;
 }
 .fa-star {
   font-size: 12px;
@@ -124,8 +125,8 @@ header {
 .fa-star.empty {
   color: #aeaeae;
 }
-.buying-method{
-    font-size: 14px;
-    font-weight: 700;
-    color: #787885;
+.buying-method {
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
 }
