@@ -56,7 +56,8 @@ header {
   font-weight: 600;
   color: #3a3a3a;
 }
-.hit-button, .float-right {
+.hit-button,
+.float-right {
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
@@ -133,10 +134,65 @@ header {
   font-weight: 700;
   color: #787885;
 }
-.float-right{
+.righ-button {
+  display: grid;
+  justify-content: end;
+}
+.float-right {
   float: right;
   margin-top: 20px;
   margin-bottom: 10px;
   background-color: #fff;
   color: #e02c6d;
+}
+
+/* ========================================
+               footer styles 
+  ======================================== */
+.footer-section {
+  margin: auto;
+}
+.footer-area {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+  background-color: #0a0826;
+  padding: 30px;
+  color: #fff;
+}
+.footer-head {
+  display: grid;
+  justify-items: center;
+}
+h3.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p.footer-info {
+  font-size: 14px;
+  font-weight: 700;
+  color: #d9dbe1;
+  margin: 7px;
+}
+
+.footer-head p {
+  margin: 7px;
+  color: #d9dbe1;
+  font-size: 14px;
+}
+.footer-icon {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.footer-icon i {
+  margin-left: 20px;
+}
+.margin-left-zero {
+  margin-left: 0;
 }
