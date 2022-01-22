@@ -238,7 +238,10 @@ p.footer-info {
   }
   .collections {
     grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    justify-items: start;
   }
+  
   .contacts {
     grid-template-columns: repeat(1, 1fr);
     width: 80%;
