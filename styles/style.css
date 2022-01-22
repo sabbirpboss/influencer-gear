@@ -76,6 +76,9 @@ header {
 /* =======================================
             Popular Collection styles 
 ========================================== */
+section.popular-section {
+  margin: auto;
+}
 .collections {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
