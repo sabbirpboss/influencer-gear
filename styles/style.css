@@ -146,6 +146,25 @@ header {
   color: #e02c6d;
 }
 
+.contact-form {
+  margin: auto;
+  margin-bottom: 50px;
+}
+.contact-title {
+  display: grid;
+  justify-content: center;
+  color: #474747;
+  font-weight: 700;
+}
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.submit-button {
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
 /* ========================================
                footer styles 
   ======================================== */
@@ -195,4 +214,62 @@ p.footer-info {
 }
 .margin-left-zero {
   margin-left: 0;
+}
+
+/*====================================
+              Responsive
+ ========================================= */
+@media only screen and (max-width: 668px) {
+  .container {
+    width: 100%;
+  }
+  .header-banner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-left,
+  .banner-info {
+    width: 80%;
+  }
+  .banner-right {
+    padding-left: 0px;
+  }
+  .banner-right img {
+    width: 80%;
+  }
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contacts {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+  }
+  i.fas.fa-shopping-cart {
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .header-banner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner-left,
+  .banner-info {
+    width: 80%;
+  }
+  .banner-right {
+    padding-left: 0px;
+  }
+  .banner-right img {
+    width: 80%;
+  }
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contacts {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
 }
